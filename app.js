@@ -27,6 +27,4 @@ function generator() {
     }
 }
 
-let aux = generator();
-
-document.querySelector("#excuse").innerHTML = aux;
+generator();
